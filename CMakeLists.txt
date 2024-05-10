@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.0.0)
+
+set(PROJECT_NAME_DC DesktopCharacter)
+project(${PROJECT_NAME_DC})
+set(PROJECT_NAME_DCI DCInterface)
+project(${PROJECT_NAME_DCI})
+
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/build)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${PROJECT_SOURCE_DIR}/build)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${PROJECT_SOURCE_DIR}/build/Debug)
+
+add_subdirectory(./src/)
