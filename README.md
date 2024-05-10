@@ -1,0 +1,2 @@
+# DesktopCharacter
+WindowsAPIを用いたWindows向けデスクトップマスコットアプリ
